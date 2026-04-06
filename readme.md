@@ -3,10 +3,10 @@
 
 !!! 
 1) всі посилання в head у файлы index.html мають бути https://www.ucsm.ca/ (сайт на якому буде контент). також змінити у sitemap та robots.txt на правильне посилання + дати сьогоднішні 
-2) на сторінці /en-gb/ контент такий самий, як в index.html АЛЕ: 
-(можете створити нову папку /en-gb/ або перейменувати)
+2) на сторінці /en-ca/ контент такий самий, як в index.html АЛЕ: 
+(можете створити нову папку /en-ca/ або перейменувати)
 
-   - <html lang="en-gb">
+   - <html lang="en-ca">
    - шляхи до файлів мають бути (приклад)
          <link rel="stylesheet" href="/style.css">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
@@ -26,9 +26,9 @@
 
 
 ставимо хрефланги та канонікл у head 
-<link rel="alternate" hreflang="en-GB" href="https://www.ucsm.ca/en-gb/">
+<link rel="alternate" hreflang="en-CA" href="https://www.ucsm.ca/en-ca/">
 <link rel="alternate" hreflang="x-default" href="https://www.ucsm.ca/">
-<link rel="canonical" href="https://www.ucsm.ca/en-gb/">
+<link rel="canonical" href="https://www.ucsm.ca/en-ca/">
 
 
 !!! **КЛЮЧІ такод потрібно додавати у промт, та вказувати: щоб їх використовувал ШІ у написанні контенту**
